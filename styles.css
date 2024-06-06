@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "licorice";
+    src: url("fonts/licorice.ttf");
+}
+@font-face {
+    font-family: "comfortaa";
+    src: url("fonts/comfortaa-regular.ttf");
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    text-align: justify;
+    font-family: comfortaa;
+    font-weight: normal; 
+    font-size: 17px;
+    color: black;
+}
+
+body h1 {
+    font-family: licorice;
+    font-size: 55px;
+    font-weight: normal;
+    color: #f4a9d6;
+}
+
+body #header {
+    width: 80%;
+    margin: 1em auto 0em auto;
+    text-align: right;
+    font-size: 14px;
+}
+
+body #header .tel {
+    margin-left: 2em;
+}
+
+body #header a:link, body #header a:visited, body a:active {
+    text-decoration: none;
+    color: black;
+}
+body #header a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+body #content {
+    width: 80%;
+    margin: 1em auto 0em auto;
+}
+
+body #content #info {
+}
+
+body #content #info h1 {
+    margin: 2em 0em 2em 0em;
+}
+
+body #content #info img {
+    float: left;
+    width: 15em;
+    margin: 0em 7em 2em 0em;
+    border-radius: 1.5em;
+}
+
+body #content #info h1 {
+    margin: 1em 0em 0em 0em;
+}
+
+body #content .closer {
+    clear: both;
+}
+
+body #content #data {
+    margin-top: 2em;
+}
+
+body #content #data #left {
+    float: left;
+    width: 49%;
+}
+
+body #content #data #left #project1 {
+    width: 100%;
+    height: 41.5em;
+    border-radius: 1.5em;
+    background-color: #f4aea9;
+    padding: 1.5em;
+    text-align: center;
+}
+
+body #content #data #left #project1 img {
+    margin: 1em auto auto auto;
+    height: 35em;
+}
+
+body #content #data #right {
+    float: right;
+    width: 49%;
+}
+
+body #content #data #right #project2 {
+    width: 100%;
+    border-radius: 1.5em;
+    background-color: #e0a9f4;
+    padding: 1.5em;
+    text-align: center;
+}
+
+body #content #data #right #project2 img {
+    margin: auto auto 1em auto;
+    height: 15em;
+}
+
+body #content #data #right #project3 {
+    margin-top: 1em;
+    width: 100%;
+    border-radius: 1.5em;
+    background-color: #f4a9d6;
+    padding: 1.5em;
+    text-align: center;
+}
+
+body #content #data #project3 img {
+    margin: auto auto 1em auto;
+    height: 15em;
+}
+
+body #content #about {
+}
+
+body #content #about h1 {
+    margin: 2em 0em 0em 0em;
+}
+
+body #content #about h2 {
+    margin: 2em 0em 1em 0em;
+    font-weight: normal;
+    font-size: 17px;
+    color: #f4a9d6;
+}
+
+body #content #about .exp {
+    margin: 1em 0em 1em 0em;
+    font-size: 14px;
+}
+
+body #content #about #side {
+    float: right;
+    margin: 6em 0em 2em 0em;
+    width: 60%;
+    border: 1px solid #f4a9d6;
+    border-radius: 1.5em;
+    padding: 1em 2em 1em 2em;
+    text-align: center;
+}
+
+body #content #about #side img {
+    margin: 0em auto 2em auto;
+    width: 50%;
+    border-radius: 1.5em;
+}
+
+body #content #about #side #text {
+    text-align: justify;
+}

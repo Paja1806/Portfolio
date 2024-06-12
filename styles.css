@@ -2,10 +2,6 @@
     font-family: "licorice";
     src: url("fonts/licorice.ttf");
 }
-@font-face {
-    font-family: "comfortaa";
-    src: url("fonts/comfortaa-regular.ttf");
-}
 
 *, *:after, *:before {
     box-sizing: border-box;
@@ -14,7 +10,7 @@
 body {
     margin: 0px;
     text-align: justify;
-    font-family: comfortaa;
+    font-family: system-ui;
     font-weight: normal; 
     font-size: 17px;
     color: black;
@@ -24,25 +20,25 @@ body h1 {
     font-family: licorice;
     font-size: 55px;
     font-weight: normal;
-    color: #f4a9d6;
+    color: #eb62b4;
 }
 
-body #header {
+body header {
     width: 80%;
     margin: 1em auto 0em auto;
     text-align: right;
     font-size: 14px;
 }
 
-body #header .tel {
+body header .tel {
     margin-left: 2em;
 }
 
-body #header a:link, body #header a:visited, body a:active {
+body header a:link, body #header a:visited, body a:active {
     text-decoration: none;
     color: black;
 }
-body #header a:hover {
+body header a:hover {
     text-decoration: underline;
     color: black;
 }
@@ -111,7 +107,7 @@ body #content #data #right #project2 {
 }
 
 body #content #data #right #project2 img {
-    margin: auto auto 1em auto;
+    margin: 1em auto auto auto;
     height: 15em;
 }
 
@@ -125,7 +121,7 @@ body #content #data #right #project3 {
 }
 
 body #content #data #project3 img {
-    margin: auto auto 1em auto;
+    margin: 1em auto auto auto;
     height: 15em;
 }
 
@@ -137,22 +133,32 @@ body #content #about h1 {
 }
 
 body #content #about h2 {
-    margin: 2em 0em 1em 0em;
+    margin: 2em 0em 0em 0em;
     font-weight: normal;
-    font-size: 17px;
-    color: #f4a9d6;
+    font-size: 20px;
+    color: #eb62b4;
 }
 
-body #content #about .exp {
+body #content #about ul {
+    padding: 0em;
+    list-style-type: none;
+}
+
+body #content #about li {
     margin: 1em 0em 1em 0em;
     font-size: 14px;
+}
+
+body #content #about li time {
+    margin-left: 1em;
+    color: gray;
 }
 
 body #content #about #side {
     float: right;
     margin: 6em 0em 2em 0em;
     width: 60%;
-    border: 1px solid #f4a9d6;
+    border: 1px solid #eb62b4;
     border-radius: 1.5em;
     padding: 1em 2em 1em 2em;
     text-align: center;
